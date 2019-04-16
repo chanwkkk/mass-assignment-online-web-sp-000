@@ -2,7 +2,7 @@
 # the described class (or method) for the tests to even run. It's sort of a
 # freebie test to make sure you've actually defined the models you plan on
 # testing.
-require 'pry'
+
 describe Person do
 
   let(:avi_attributes) {
@@ -22,9 +22,9 @@ describe Person do
       :pant_width => "32"
     }
   }
-  binding.pry
-  let(:avi) { Person.new(avi_attributes) }
 
+  let(:avi) { Person.new(avi_attributes) }
+   
   let(:spencer_attributes) {
     {
       :name => "Spencer",
