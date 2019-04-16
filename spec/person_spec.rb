@@ -24,7 +24,7 @@ describe Person do
   }
   binding.pry
   let(:avi) { Person.new(avi_attributes) }
-  
+
   let(:spencer_attributes) {
     {
       :name => "Spencer",
