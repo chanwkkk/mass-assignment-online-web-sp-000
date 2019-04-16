@@ -6,7 +6,9 @@ class Person
 :wrist_size, :glove_size, :pant_length, :pant_width
 
 def initialize(attributes)
- attributes.each {|key,value| binding.pry}
+ attributes.each do |key,value| 
+   binding.pry
+  end
 end
 
 end
