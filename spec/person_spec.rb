@@ -22,9 +22,9 @@ describe Person do
       :pant_width => "32"
     }
   }
-
-  let(:avi) { Person.new(avi_attributes) }
   binding.pry
+  let(:avi) { Person.new(avi_attributes) }
+  
   let(:spencer_attributes) {
     {
       :name => "Spencer",
